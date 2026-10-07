@@ -326,4 +326,4 @@ public class MapRotationClient implements ClientModInitializer {
             return pts;
         }
     }
-            }
+}
