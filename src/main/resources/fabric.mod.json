@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "maprotation",
+  "version": "${version}",
+  "name": "Map Rotation",
+  "description": "Client-side auto-walker for scanning the whole map.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.maprotation.MapRotationClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
